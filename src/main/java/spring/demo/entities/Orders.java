@@ -33,8 +33,7 @@ public class Orders {
         this.price = price;
         this.status  = status;
     }
-
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
@@ -65,4 +64,5 @@ public class Orders {
     public void setStatus(String status) {
         this.status = status;
     }
+
 }
